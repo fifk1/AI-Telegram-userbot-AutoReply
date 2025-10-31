@@ -1,0 +1,16 @@
+# Telegram Userbot - Зависимости
+
+# Основные библиотеки
+undetected-chromedriver==3.5.5
+selenium>=4.9.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Дополнительные зависимости
+websockets>=15.0.1
+
+# AI Model Dependencies - Llama-3-8B-Q5_K_M-GGUF
+torch>=2.0.0
+llama-cpp-python>=0.2.0
+deep-translator==4.0.0rc1
+

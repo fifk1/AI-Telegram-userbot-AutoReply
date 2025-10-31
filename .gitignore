@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Данные и логи
+data/
+logs/
+*.log
+
+# AI модель (большой файл)
+chat/model/*.gguf
+chat/model/*.bin
+chat/model/*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Лицензии (если будут добавлены позже)
+*.dat
+license.dat
+machine.id
+subscriptions.json
+
+# Временные файлы
+*.tmp
+*.bak
+*.cache
+
